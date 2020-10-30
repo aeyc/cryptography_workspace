@@ -13,7 +13,7 @@ args = str(input())
 args = args.split()
 args = args[1:]
 
-#simpleEncrXOR --msg msg
+#Usage: simpleEncrXOR --m msg
 opts,args = getopt.getopt(args, "m", ['m='])
 u = opts[0][1]
 len_org = len(u)
